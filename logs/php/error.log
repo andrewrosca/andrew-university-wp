@@ -1,0 +1,29 @@
+[29-Mar-2020 02:48:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-content/themes/andrew-theme/index.php on line 5
+[29-Mar-2020 04:34:29 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-content/themes/andrew-theme/index.php on line 8
+[30-Mar-2020 05:17:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqeueu_style() in /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-content/themes/andrew-theme/functions.php:4
+Stack trace:
+#0 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-includes/class-wp-hook.php(288): university_files('')
+#1 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-includes/script-loader.php(2670): do_action('wp_enqueue_scri...')
+#4 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-includes/pl in /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-content/themes/andrew-theme/functions.php on line 4
+[30-Mar-2020 05:18:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqeueu_style() in /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-content/themes/andrew-theme/functions.php:4
+Stack trace:
+#0 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-includes/class-wp-hook.php(288): university_files('')
+#1 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-includes/script-loader.php(2670): do_action('wp_enqueue_scri...')
+#4 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-includes/pl in /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-content/themes/andrew-theme/functions.php on line 4
+[30-Mar-2020 05:51:12 UTC] PHP Parse error:  syntax error, unexpected 'hero' (T_STRING) in /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-content/themes/andrew-theme/index.php on line 76
+[30-Mar-2020 05:51:46 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-content/themes/andrew-theme/index.php on line 75
+[30-Mar-2020 06:34:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_fil_uri() in /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-content/themes/andrew-theme/page.php:10
+Stack trace:
+#0 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-blog-header.php(19): require_once('/Users/andrewro...')
+#2 /Users/andrewrosca/Local Sites/andrew-university/app/public/index.php(17): require('/Users/andrewro...')
+#3 {main}
+  thrown in /Users/andrewrosca/Local Sites/andrew-university/app/public/wp-content/themes/andrew-theme/page.php on line 10
